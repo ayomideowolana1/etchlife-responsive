@@ -444,7 +444,7 @@ form h2{
       section#contact{
         padding: 0px;
         padding-top: 3vh;
-        height: 200vh;
+        height: auto;
       }
 
       section#contact .container{
