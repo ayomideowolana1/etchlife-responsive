@@ -152,12 +152,13 @@ section#home {
 #home .hero {
   max-width: 30vw;
   margin: auto;
-  margin-bottom: -20px;
+  margin-bottom: 0px;
 }
 
 section#about {
-  background-image: url('./assets/images/desktop-about-bg.png');
+  background-image: url('./assets/images/etc-bg.png');
   background-size: cover;
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -178,7 +179,7 @@ section#about {
   box-sizing: border-box;
   padding: 20px 30px;
   color: white;
-  background-color: #1f3041;
+  background-color: #1f3041c9;
 }
 #about .container .body {
   flex: 3;
@@ -390,6 +391,7 @@ form h2{
 
     section#about{
       background-position: center;
+      background-image: url('./assets/images/etc-about-bg-tab.png');
     }
 
     section#about .container{
