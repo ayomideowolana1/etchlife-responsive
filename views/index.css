@@ -492,3 +492,50 @@ form h2{
       }
 
   }
+
+
+  /* sub pages */
+
+  .mlc-img {
+    width: 30vw;
+    height: 17vw;
+    /* border: 1px solid ; */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+  }
+
+  .mlc-img img{ 
+    width: 35vw;
+    height: 17vw;
+  }
+
+
+  @media screen and ( max-width : 480px ) {
+    .mlc-img {
+      width: 70vw;
+      height: 40vw;
+      margin-left: 10px;
+    }
+
+    ul{
+      list-style: none;
+      padding-left: 0px;
+      margin-left: 0px;
+    }
+
+     .mlc-img img{
+    width: 75vw;
+    height: 50vw;
+  }
+
+  .contactInfo p{
+    padding-left: 0px;
+    margin: 0px;
+  }
+  
+  }
